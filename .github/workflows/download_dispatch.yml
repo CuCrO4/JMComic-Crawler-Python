@@ -5,7 +5,7 @@ on:
     inputs:
       JM_ALBUM_IDS:
         type: string
-        description: 本子id（多个id用-隔开，如 '123-456-789'）
+        description:'469414-399054' 本子id（多个id用-隔开，如 '123-456-789'）
         required: false
 
       JM_PHOTO_IDS:
@@ -15,13 +15,13 @@ on:
 
       CLIENT_IMPL:
         type: string
-        description: 客户端类型（client.impl），下载失败时，你可以尝试填入此项重试。'api' 表示移动端，'html' 表示网页端。
+        description: 'html'客户端类型（client.impl），下载失败时，你可以尝试填入此项重试。'api' 表示移动端，'html' 表示网页端。
         default: ''
         required: false
 
       IMAGE_SUFFIX:
         type: string
-        description: 图片后缀（download.cache.suffix），默认为空，表示不做图片格式转换。可填入例如 'png' 'jpg'
+        description: 'jpg'图片后缀（download.cache.suffix），默认为空，表示不做图片格式转换。可填入例如 'png' 'jpg'
         default: ''
         required: false
 
