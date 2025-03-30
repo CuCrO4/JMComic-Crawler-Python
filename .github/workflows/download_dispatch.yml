@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       JM_ALBUM_IDS:
-        type: string
+        type: '469414-399054'
         description: '469414-399054'
         required: false
 
@@ -16,19 +16,19 @@ on:
       CLIENT_IMPL:
         type: string
         description: 'html' 
-        default: ''
+        default: 'html'
         required: false
 
       IMAGE_SUFFIX:
         type: string
         description: 'jpg'
-        default: ''
+        default: 'jpg'
         required: false
 
       DIR_RULE:
         type: string
         description: 下载文件夹规则（dir_rule.rule）。默认使用配置文件的 'Bd_Aauthor_Atitle_Pindex'。
-        default: ''
+        default: 'Bd_Aauthor_Atitle_Pindex'
         required: false
 
       ZIP_NAME:
